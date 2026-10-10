@@ -1,0 +1,6 @@
+# Nix build artifact.
+/result
+
+# Per-run staging directory written by the launcher when the stack is run
+# from inside the repo. It holds symlinks into a specific store path.
+.agent-stacks/
